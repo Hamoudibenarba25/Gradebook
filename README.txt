@@ -1,21 +1,17 @@
-GradeBook Pro v9 — Live Evaluation + Shared Student Roster
+GradeBook Pro v10 — Editable School Settings & Class Management
 
-Includes:
-- Existing Term 1 marks/data preserved using the same storage key.
-- Student names/roster shared across Term 1, Term 2, and Term 3.
-- Student additions, removals, and name edits synchronize across terms.
-- Marks remain term-specific; adding/editing roster entries does not copy marks between terms.
-- Evaluation subtotal updates immediately while entering criteria. Partial subtotal is labeled “partial”.
-- Existing report export, backup, and app features retained.
+Features:
+- Editable school name, teacher name, and academic year in Settings & Help.
+- Settings update dashboard/header and register/printed report headings.
+- Rename classes while preserving student records and marks.
+- Add new classes.
+- Remove classes from all three terms after confirmation.
+- Existing term organization, shared student roster, live evaluation subtotal, reports and exports retained.
 
-GitHub Pages update:
-1. Export a JSON backup from the current app before updating.
-2. Extract this ZIP.
-3. Replace index.html and service-worker.js in the root of your GradeBook GitHub repository.
-4. Commit the changes and wait for GitHub Pages to deploy.
-5. Open the website in Chrome and hard-refresh (Ctrl+Shift+R), then reopen the installed app.
-
-Important:
-- Keep student records in local browser storage; do not upload student backups to GitHub.
-- Term 1 data remains in the existing Term 1 storage key.
-- The shared roster is local to the same browser/device. This update does not sync records between devices.
+IMPORTANT: Export a backup before updating.
+Update GitHub Pages:
+1. Extract ZIP.
+2. Replace index.html and service-worker.js in your repository root.
+3. Commit changes and wait for deployment.
+4. Open site in Chrome and hard refresh (Ctrl+Shift+R).
+Do not upload student backups to GitHub. Browser local data stays on device; it is not synchronized between devices.
