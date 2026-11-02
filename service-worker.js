@@ -1,4 +1,4 @@
-const CACHE_NAME = 'gradebook-pro-v8-terms-reports-fix';
+const CACHE_NAME = 'gradebook-pro-v9-live-evaluation-shared-roster';
 const APP_FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', event => { self.skipWaiting(); event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_FILES).catch(() => {}))); });
 self.addEventListener('message', event => { if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting(); });
